@@ -8,7 +8,7 @@ body {
   background-color: rgba(233, 233, 233, 0.87);
   display: flex;
   justify-content: center;
-  border: 2px solid black;
+
   height: 100vh;
 }
 a {
@@ -47,6 +47,8 @@ header {
   font-weight: lighter;
 }
 /* Main */
+
+/* summary */
 .summary {
   display: flex;
   position: absolute;
@@ -63,6 +65,68 @@ header {
   width: 650px;
   line-height: 25px;
   font-size: 16px;
+}
+
+/* Skills */
+
+.skills {
+  width: 700px;
+  display: flex;
+  margin-top: 260px;
+  flex-direction: column;
+  position: absolute;
+}
+.skills-title {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-bottom: 10px;
+}
+.skills-list {
+  display: flex;
+  padding-right: 85px;
+  height: 100px;
+  width: 700px;
+  justify-content: space-between;
+  list-style: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* projects */
+.projects {
+  position: absolute;
+  width: 700px;
+  margin-top: 380px;
+  padding-right: 80px;
+}
+button {
+  width: 60px;
+  background-color: white;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+button:hover {
+  background-color: lightgray;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+}
+.projects-title {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.project-info h4 {
+  font-style: italic;
+  font-size: 14px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+}
+.project-info {
+  padding-bottom: 30px;
 }
 
 /* aside */
