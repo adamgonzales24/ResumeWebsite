@@ -189,7 +189,10 @@ aside {
   font-size: 14px;
 }
 
-@media screen and (min-width: 1439px) {
+@media screen and (max-width: 480px) {
+  body {
+    padding: 0;
+  }
   main {
     flex-direction: column;
     justify-content: center;
@@ -198,8 +201,26 @@ aside {
 
   .left {
     order: 1;
+
+    width: 100%;
+    align-items: center;
+    padding: 0 20%;
   }
   aside {
     order: 0;
+
+    width: 100%;
+    align-items: center;
+  }
+  aside .aside-title {
+    justify-content: flex-start;
+  }
+  .contact {
+    width: 100%;
+    padding: 0% 20%;
+  }
+  .education {
+    width: 100%;
+    padding: 0 20%;
   }
 }
