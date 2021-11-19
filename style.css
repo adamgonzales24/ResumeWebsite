@@ -22,6 +22,8 @@ body {
   align-items: center;
   flex-direction: column;
   padding: 3% 15%;
+  overflow-x: hidden;
+  background-color: rgba(233, 233, 233, 0.87);
 }
 
 /* Header */
@@ -29,7 +31,7 @@ body {
 .title {
   width: 100vw;
   text-align: center;
-  line-height: 40px;
+  line-height: 50px;
   text-transform: uppercase;
 }
 
@@ -106,7 +108,7 @@ main {
   font-size: 1.4rem;
   letter-spacing: 3px;
   text-transform: uppercase;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .project-info {
@@ -128,18 +130,21 @@ main {
 button {
   width: 60px;
   margin: 4px 10px;
-  border-radius: 3px;
+  border-radius: 4px;
   background-color: white;
+  border: 1px solid;
 }
 
 button:hover {
-  background-color: grey;
+  background-color: lightgray;
   color: white;
+  border: 1px solid black;
 }
 
 .project-info p {
+  padding-top: 6px;
   width: 90%;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 25px;
 }
 
@@ -174,7 +179,7 @@ aside {
 }
 
 .education {
-  margin-top: 35px;
+  margin-top: 55px;
 }
 
 .education-history {
