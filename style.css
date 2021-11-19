@@ -188,3 +188,18 @@ aside {
 .education-history p {
   font-size: 14px;
 }
+
+@media screen and (max-width: 800px) {
+  main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left {
+    order: 1;
+  }
+  aside {
+    order: 0;
+  }
+}
