@@ -23,6 +23,7 @@ body {
   flex-direction: column;
   padding: 3% 20%;
   background-color: rgba(233, 233, 233, 0.87);
+  width: auto;
 }
 
 /* Header */
@@ -131,13 +132,14 @@ button {
   margin: 4px 10px;
   border-radius: 4px;
   background-color: white;
-  border: 1px solid;
+  color: black;
+  border: 0 solid;
 }
 
 button:hover {
-  background-color: lightgray;
-  color: white;
-  border: 1px solid black;
+  background-color: rgb(221, 221, 221);
+  color: black;
+  border: 0px;
 }
 
 .project-info p {
@@ -145,6 +147,27 @@ button:hover {
   width: 90%;
   font-size: 18px;
   line-height: 25px;
+}
+
+.work-title {
+  font-weight: bold;
+  font-size: 1.4rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.work-section-title {
+  font-size: 18px;
+  padding: 5px 0;
+}
+.work-section-info {
+  list-style: none;
+  display: flex;
+  padding: 10px 0;
+}
+.work-section-info li {
+  padding: 2px 0 5px 0;
+  list-style-type: none;
 }
 
 aside {
@@ -205,6 +228,12 @@ aside {
     width: 100%;
     align-items: center;
     padding: 0 20%;
+  }
+
+  .skills-list {
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid black;
   }
   aside {
     order: 0;
