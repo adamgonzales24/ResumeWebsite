@@ -168,6 +168,7 @@ button:hover {
   list-style: none;
   display: flex;
   padding: 10px 0;
+  width: 90%;
 }
 .work-section-info li {
   padding: 2px 0 5px 0;
